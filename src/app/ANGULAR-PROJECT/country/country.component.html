@@ -1,0 +1,47 @@
+
+<div class="box" *ngFor = "let b of countries" >
+    <h4> {{b.name}} :  {{b.nativeName}}</h4>
+    <div class="d-flex justify-content-center">
+        <img class="rounded-circle"  height="150px" width="150px" src={{b.flag}}>
+    </div>
+    <div class="row" style="margin-top: 20px;">
+        <h4>Informations</h4>
+    <table class="table table-hover table-striped">
+     <tbody>
+        <tr >
+        <td> <strong>Name</strong>
+            {{b.name}}
+        </td>
+        </tr>
+        <tr>
+        <td><strong>Capital</strong>
+             {{b.capital}}
+        </td>
+        </tr>
+        <tr >
+        <td> <strong>Region</strong>
+             {{b.region}}
+        </td>
+        </tr>
+        <tr >
+        <td> <strong>Population</strong>
+            {{b.population}}
+        </td>
+        </tr>
+        <tr >
+        <td> <strong>Area</strong> 
+             {{b.area}}
+        </td>
+        </tr>
+        <tr >
+        <td> <strong>Languages</strong>
+            <ng-container *ngFor="let k of b.languages" >
+                {{k.name}},{{k.nativeName}}
+                </ng-container>
+        </td>
+        </tr>
+ </tbody>
+    </table>
+    </div>
+    </div>
+    

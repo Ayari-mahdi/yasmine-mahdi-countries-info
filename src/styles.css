@@ -1,0 +1,23 @@
+/* You can add global styles to this file, and also import other style files */
+@import "~bootstrap";
+@import "~font-awesome";
+@import "~@fortawesome\fontawesome-free\css\all.css";
+@import "~bootstrap/dist/css/bootstrap.css";
+
+/* @import "app/project/project.component.css"; */
+body{
+/* background-image:url("/assets/images/bg.jpg") ; */
+/* background-color:purple; */
+/* background-color:  #353b48; */
+        /* background: linear-gradient(to right, #91EAE4, #86A8E7, #7F7FD5); */
+      /*  background: #0F2027;  */
+        /* background: linear-gradient(to left, #2C5364, #203A43, #0F2027);  */
+/* background: linear-gradient(to top,#0F2027, #00F260);  */
+/* background: linear-gradient(to right, #ACB6E5, #74ebd5);  */
+/* background: linear-gradient(to right, #360033, #0b8793); */
+/* background: linear-gradient(to right, #348f50, #56b4d3); */
+background-repeat: no-repeat;
+background-attachment: fixed;
+/*height: 1600px;*/
+background-size:100% 100%;
+}
