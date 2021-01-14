@@ -1,5 +1,5 @@
 import { Component, Input, OnInit,  } from '@angular/core';
-import { Router, Routes } from '@angular/router';
+import { Router} from '@angular/router';
 import { Countries } from '../model/Countries';
 
 @Component({
