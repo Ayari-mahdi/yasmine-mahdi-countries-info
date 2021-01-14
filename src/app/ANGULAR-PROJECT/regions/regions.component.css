@@ -2,6 +2,7 @@
 {
     padding: 0;
 }
-a {
+.reg:hover {
     cursor: pointer;
+    color: blue;
 }

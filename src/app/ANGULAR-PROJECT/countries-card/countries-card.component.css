@@ -21,4 +21,8 @@
 .text{
     margin-bottom: 10px;
 }
+.det{
+    color: blue;
+    cursor: pointer;
+}
 

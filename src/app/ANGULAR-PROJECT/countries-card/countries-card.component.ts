@@ -1,5 +1,5 @@
-import { Component, EventEmitter, Input, OnInit, Output } from '@angular/core';
-import { Router } from '@angular/router';
+import { Component, Input, OnInit,  } from '@angular/core';
+import { Router, Routes } from '@angular/router';
 import { Countries } from '../model/Countries';
 
 @Component({
@@ -10,10 +10,14 @@ import { Countries } from '../model/Countries';
 export class CountriesCardComponent implements OnInit {
   @Input() countries:Countries;
   constructor(
+    private router : Router,
   ) { }
 
   ngOnInit(): void {
   }
-  
+  details()
+  {
+    this.router.navigate(['country',this.countries.name])
+  }
 
 }
